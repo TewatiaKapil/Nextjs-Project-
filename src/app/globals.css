@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,s
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar {
+  width: 250px;
+  padding: 20px;
+}
+
+.content {
+  padding: 21px 0 !important;
+}
+.side-border{
+  border-right:  1px solid lightgray;
+}
+.mrgnLeft{
+  margin-left: 20%;
+}
+.width{
+  width: 80% !important;
+  margin: 15px 0 !important;
+}
+.btn-size{
+  margin-left: 85% !important;
+  margin-bottom: 15px !important;
+}
+.css-1v5u2yv{
+  display: none !important;
+}
+.side{
+  display: flex !important;
+  flex-direction: row;
+}
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper{
+  padding: 35px !important;
+  border-radius: 20px !important;
+}
+.heading{
+  text-align: center;
+  width: 100% !important;
+  font-size: 30px !important;
+  font-weight: bold;
+  padding: 30px 0;
+}
+.pd{
+  padding: 0 50px !important;
+}
+.center{
+  margin: 15px 0;
+  text-align: center;
+
+}
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

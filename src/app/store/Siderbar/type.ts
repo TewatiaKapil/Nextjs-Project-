@@ -1,0 +1,1 @@
+export const SHOW_HIDE_SIDERBAR = "SHOW_HIDE_SIDERBAR"
